@@ -1,0 +1,30 @@
+@import 'styles/variables';
+
+.productTitle {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: $grey-20;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.sellingPrice {
+  font-size: 14px;
+  line-height: 16px;
+  color: $primary-dark;
+}
+
+.mrpPrice {
+  font-size: 12px;
+  margin-left: 8px;
+  color: $grey;
+  text-decoration: line-through;
+}
+
+.productImage {
+  width: 100%;
+  height: 110px;
+}

@@ -18,7 +18,7 @@ export interface TodoState {
 }
 
 export interface FetchTodoSuccessPayload {
-  todos: any[];
+  todos: any;
 }
 
 export interface FetchTodoFailurePayload {
